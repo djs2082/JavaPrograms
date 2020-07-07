@@ -1,0 +1,39 @@
+class Case6
+{
+void case6(int p)
+{
+bk6:
+{
+
+
+
+
+
+switch(p)
+
+{
+
+case 1:
+ConstructorOverloading co=new ConstructorOverloading();
+co.constructoroverloading();
+break;
+case 2:
+MethodOverloading mo=new MethodOverloading();
+mo.methodoverloading();
+break;
+case 3:
+MethodOverriding mr=new MethodOverriding();
+mr.methodoverriding();
+break;
+
+default:
+System.out.println("Wrong Input");
+break bk6;
+
+}
+
+
+}
+}
+
+}
